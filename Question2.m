@@ -1,8 +1,7 @@
 %%Implementation of the simplex method
 
 %%Step 1: Create matrix for objective function and inequality contstraints
-%%Note: Maximixing z = 20x + 10y + 15z is equivalent to Minimizing         
-% z = -20x - 10y - 15z
+%%Note: Maximixing z = x1 + 2x2 + 4x3 + 5x4 is equivalent to Minimizing z = -x1 - 2x2 - 4x3 - 5x4
 f = [-1 -2 -4 -5];
 
 A = [1 0 0 0
