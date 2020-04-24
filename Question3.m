@@ -1,7 +1,6 @@
-%%Implementation of the simplex method
 
 %%Step 1: Create matrix for objective function and inequality contstraints
-%%Note: Minimizing z = x1 + 2x2 + 4x3 + 5x4 is equivalent to Minimizing z = -x1 - 2x2 - 4x3 - 5x4
+%%Note: Maximizing z = x1 + x2 + 35 is equivalent to Minimizing z = -x1 - x2
 f = [-1 -1];
 
 A = [25 22 

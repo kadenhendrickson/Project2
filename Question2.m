@@ -1,8 +1,7 @@
-%%Implementation of the simplex method
 
 %%Step 1: Create matrix for objective function and inequality contstraints
 %%Note: Minimizing z = x1 + 2x2 + 4x3 + 5x4 is equivalent to Minimizing z = -x1 - 2x2 - 4x3 - 5x4
-f = [1 2 4 5];
+f = [-1 -2 -4 -5];
 
 A = [1 0 0 0
     0 1 0 0
@@ -12,8 +11,8 @@ A = [1 0 0 0
 b = [7 6 4 5];
 
 %%Set lower and upper bounds of variables
-lb = [];
-ub = zeros(4,1);
+lb = zeros(4,1);
+ub = [];
 
 %%add empty matrices for coefficients and initial guess
 Aeq = [];
